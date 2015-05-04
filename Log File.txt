@@ -1,0 +1,45 @@
+14/08/14 22:17 Ricardo
+
+style.css {
+    .animated fixed: working as intended;
+    .animated now appears form opacity 0%;
+}
+
+
+///////////////////////////////////////////
+
+
+15/08/14 22:34 Ricardo
+
+Changed some classes to id's
+Changed main.html
+Added Parallax to box*-img
+new navbar.html
+navbar is used to reuse the header code inside main.html
+
+
+///////////////////////////////////////////
+
+
+16/08/14 00:18 Ricardo
+
+Modified all *html file so they load the external-header.html inside the div(header)
+<Header> a little bit cleaner
+
+
+///////////////////////////////////////////
+
+
+17/08/14 00:22 Ricardo
+
+main.html, navegation.css{
+    .navbar changed to #navbar
+}
+
+main.html{
+    Function Added: Sticky Navegation Bar
+}
+
+
+
+Remember to add stop the scroll jquery queue, favicon and index.html with utf, load the ui with an ajax query so it can be reused.

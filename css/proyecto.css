@@ -1,0 +1,8 @@
+#box1-img, #box2-img, #box3-img {
+	background:url(../img/stock/stock2.jpg) 100% no-repeat;
+    background-size: cover;
+	color: white;
+	height: 800px;
+	margin: 0 auto;
+	padding: 0;
+}
