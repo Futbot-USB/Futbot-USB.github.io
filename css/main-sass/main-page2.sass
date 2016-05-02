@@ -1,0 +1,541 @@
+/* Importo todas las fuentes que necesito */
+
+@font-face
+    font-family: 'Aller-Bold'
+    src: url('../../fonts/Aller_Bd.ttf')
+
+@font-face
+    font-family: 'Aller-Light'
+    src: url('../../fonts/Aller_Lt.ttf')
+
+@font-face
+    font-family: 'Aller-Regular'
+    src: url('../../fonts/Aller_Rg.ttf')
+
+@font-face
+    font-family: 'Montserrat-Hairline'
+    src: url('../../fonts/Montserrat-Hairline.otf')
+
+
+/* Layout de todo el html */
+
+
+body
+    display: flex
+    min-height: 100vh
+    flex-direction: column
+    overflow-x: hidden
+    /* debo usar esto en base para tener un buen layout desde el principio*/
+
+body footer .page-footer .black
+
+    margin-top: 0
+
+
+
+/* Colores de fondo del navbar y estilos de la tipografia */
+nav
+    background-color: #333333
+    opacity: 0.60
+    margin-bottom: 0px
+    height: 50px
+
+.navbar-fixed
+
+    /* Esto para solventar el problema de los objetos detras */
+    /* del navbar fixed*/
+    height: 50px
+
+.nav-wrapper .side-nav li a
+
+    color: white
+    font-size: 22px
+
+div.navbar-fixed
+
+    height: 50px
+
+.brand-logo
+
+    height: 50px
+    font-family: 'Montserrat-Hairline'
+
+
+ul#nav-mobile
+
+    height: 50px
+    margin-right: 5em
+
+    li
+        height: 50px
+
+    a
+
+        height: 50px
+        color: #f2f2f2
+        font-size: 18px
+        font-family: 'Montserrat-Hairline'
+        font-weight: 700
+
+
+
+main
+    flex: 1 0 auto
+    margin-top: -60px
+
+/* =====================================================
+    Colores de texto para slideshow y seccion nosotros
+    ===================================================== */
+
+
+
+.slideshow-colors1
+
+    color: #121212
+
+
+
+.slideshow-colors2
+
+    color: #9b9b9b
+
+.slideshow-fonts-size
+
+    font-size: 12px
+
+
+
+.general-font
+
+    font-family: 'Montserrat-Hairline'
+
+
+
+/* Seccion de parallax */
+.parallax-container
+
+    height: 550px
+
+
+/** Seccion de quines somos, nosotros */
+#nosotros_s
+
+    background-color: #ecf0f1
+    /*  esto es para colocar el fondo de la seccion nosotros*/
+    padding-bottom: 0px
+
+.nosotros-font-color
+
+    color: black
+    font-size: 20px
+
+.iconos
+
+    margin-top: 35px
+
+#icons
+
+    margin-bottom: 0px
+    margin-top: 10px
+    height: 250px
+
+.col-height
+
+    height: 250px
+
+
+
+.container
+
+    margin-left: 0
+    width: 100%
+    height: 100%
+    margin-top: 10px
+
+/* Clase para que aparezca la ventana negra*/
+
+#diseno
+
+    position: relative
+
+#engranes
+
+    position: relative
+
+#trofeo
+
+    position: relative
+
+.highlight
+
+    position: absolute
+    background-color: rgba(0,0,0,1)
+    font-family: Verdana, Geneva, sans-serif
+    color: #FFF
+    bottom: 0px
+    z-index: 1
+    width: 100%
+    height: 100%
+    left: 0px
+
+.popup-head
+
+    display: none
+    font-size: 14px
+    margin-top: 30px
+    color: #ecf0f1
+
+.popud-head::after
+
+    background-color: white
+    border-bottom: 1px solid white
+    width: 40px
+    height: 1px
+    display: block
+    content: ""
+    margin: 0 auto
+    margin-top: 30px
+
+
+.popup-foot
+
+    display: none
+    font-size: 14px
+    margin-top: 40px
+    color: #e74c3c
+
+
+
+
+/* Seccion de nuestros robots */
+
+#robots_s
+    background-color: #121212
+    margin-top: -10px
+
+
+#robot1
+
+    margin: 0 0 0 0
+    width: 100%
+
+
+//#robot1 div .img-rounded /* Clase super importante para modificar las imagenes*/
+
+
+//    width: 50%
+//    border-radius: 25%
+//    border: 1px solid black
+//    display: inline-block
+//    margin-left: 6%
+//    max-height: 220px
+//    max-width: 180px
+//    margin-top: 30px
+
+.r-titulo
+
+    font-size: 50px
+    font-weight: 700
+    display: block
+    font-family: 'Montserrat-Hairline'
+    color: #f2f2f2
+
+
+
+.r-subtitulo
+
+    font-size: 22px
+    color: white
+    font-family: 'Montserrat-Hairline'
+    color: #9b9b9b
+    margin-top: -10px
+
+/* Me permite cambiar el color  a el parrafo de la seccion de robots*/
+
+.robots-color-font
+    color: white
+    font-size: 16px
+
+
+.extra-logo
+
+    position: relative
+    margin-right: 8px
+
+#robot2
+
+    margin-top: 0
+    margin-left: 8px
+
+
+
+//#robot2 div .img-rounded
+
+//    width: 50%
+//    border-radius: 25%
+//    border: 1px solid black
+//    display: inline-block
+//    margin-left: 6%
+//    max-height: 220px
+//    max-width: 180px
+//    margin-top: 30px
+
+
+#robot3
+
+    margin-top: 0
+    margin-left: -3px
+
+//#robot3 div .img-rounded
+
+//    width: 50%
+//    border-radius: 25%
+//    border: 1px solid black
+//    display: inline-block
+//    margin-left: 6%
+//    max-height: 220px
+//    max-width: 180px
+//    margin-top: 30px
+//
+
+
+#img-robot1
+
+    width: 75%
+    height: 272.59px
+    border-radius: 50%
+    max-width: 300px
+    margin-top: 10px
+
+    float: left
+    margin-right: 4em
+    -webkit-shape-outside: circle()
+    shape-outside: circle()
+
+.alinea-izquierda
+
+    text-align: left
+
+.alinea-derecha
+
+    text-align: right
+
+
+#img-robot2
+
+    width: 75%
+    height: 272.59px
+    border-radius: 150px
+    max-width: 300px
+
+    float: right
+    margin-left: 4em
+    -webkit-shape-outside: circle()
+    shape-outside: circle()
+
+#img-robot3
+
+    width: 75%
+    height: 272.59px
+    border-radius: 150px
+    max-width: 300px
+
+    float: left
+    margin-right: 4em
+    -webkit-shape-outside: circle()
+    shape-outside: circle()
+
+
+/* lo hice par eliminar la barra que aparecia a la izquierda de la pagina*/
+.drag-target
+
+
+    margin-left: 0px
+    width: 0px
+
+
+.parallax-container
+
+    height: 600px
+
+
+/* Seccion del legado*/
+
+
+#legado-s
+
+
+    width: 100%
+
+/* Super truco para escalar un contender div en funcion de como se escale el background*/
+.background-legado
+
+    background-image: url('../../img/legado.png')
+    background-size: 100% auto
+    background-repeat: no-repeat
+    width: 100%
+    height: 0
+    padding-top: 57.26% // (img-height/img-width)* 100%
+
+
+/* -------------------- */
+
+
+/* Seccion de el equipo */
+/* Debo hacer un media query  para menores a 455 px en la  */
+/*parte del equipo */
+
+.nombre
+
+    font-size: 13px
+
+#equipo-s
+
+    background-color: #ecf0f1
+    margin-top: -10px
+    padding-top: 10px
+
+.user_min
+
+    max-width: 60%
+    max-height: 200px
+    width: 182px
+
+.col.s3.modified-width
+
+    width: 182px
+
+
+/* Seccion del footer */
+
+
+
+/* Seccion del mapa */
+
+.page-footer
+
+    padding-top: 0px
+
+#map-canvas
+
+    width: 100%
+    height: 500px
+    background-color: #121212
+    position: absolute
+    top: 0
+    bottom: -200px
+    left: 0
+    right: 0
+    z-index: 0
+
+
+
+#float-container
+
+    z-index: 100
+    position: relative
+    height: 380px
+    width: 400px
+    background-color: black
+    border-radius: 10%
+    margin-top: 50px
+    margin-left: 60%
+
+.twitter-container
+    border-radius: 10%
+    margin-left: 2.5em
+    margin-top: 1em
+
+
+
+#mapa-container
+
+    margin-top: 0px
+    position: relative
+
+
+
+
+
+
+.bloque-fonts-title
+
+    margin-left: 32px
+    color: white
+    padding-top: 8px
+    font-family: 'Montserrat-Hairline'
+
+
+/* Propiedas de las font dentro del contenedor negro en el mapa*/
+
+.bloque-fonts
+
+    font-size: 12px
+    color: white
+    margin-top: 0px
+    margin-bottom: 1px
+    margin-left: 3em
+    font-family: 'Montserrat-Hairline'
+
+@media only screen and (min-width: 450px) and (max-width: 1027px)
+
+    #float-container
+
+        margin: 0 auto
+        margin-top: 50px
+
+@media only screen and (max-width: 450px)
+
+    #float-container
+
+        margin: 0 auto
+        width: 250px
+
+    .bloque-fonts
+
+        margin-right: 2em
+
+
+/*  Barra final del footer */
+.autores .footer-c
+
+    height: 60px
+    position: relative
+    z-index: 1000
+    margin-top: 70px
+
+
+
+
+.footer-c
+
+    background-color: #212629
+    margin-top: 0px
+
+.footer-size
+
+    height: 60px
+    margin-bottom: 0px
+
+.footer-c p
+    text-align: center
+    line-height: 30px
+    font-size: 12px
+    color: #ecf0f1
+    display: inline-block
+
+
+
+.log-f
+
+    height: 40px
+    width: 125px
+    display: inline-block
+    margin-top: 0px
+    margin-left: 10px
+
+
+
+
+
+

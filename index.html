@@ -1,105 +1,506 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<link href='http://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Poner descripcion aqui">
-    <meta name="author" content="Ricardo Marques">
+<html>
 
-    <title>Futbot USB</title>
 
-    <link rel="stylesheet" type="text/css" media="all" href="content/main.css">
-    <link rel="stylesheet" type="text/css" media="all" href="content/home.css">
-    <link rel="stylesheet" type="text/css" media="all" href="http://www.mightymeta.co.uk/resources/css-noise.css">
+    <html lang="es">
 
-</head>
-<body class="page-index">
-<div class="content">
-    <nav class="nav">
-        <div class="nav-content">
-            <ul class="left">
-                <li><a href="/futbot2/index.html" class="logomark"><img src="content/logo.svg" alt="Home"></a></li> <!-- Change link --> 
-                <li><a href="#">Some</a></li>
-                <li><a href="#">Important</a></li>
-                <li><a href="#">Stuff</a></li>
-                <li><a href="#">Brother</a></li>
-            </ul>
-            <ul class="right">
-                <li><a href="http://www.robocup.org/">Competencia</a></li>
-                <li><a href="http://patrocinarte.net/project/futbot-usb-la-vinotinto-robotica">Patrocinio</a></li>
-            </ul>
-        </div>
-    </nav>
+    <head>
 
-    <div id="content-container">
-        <div class="row">
-            <h4 class="title">futbot usb</h4>
-            <h4 id="the-press">La robótica como medio de aprendizaje e investigación</h4>
-        </div>
+    <title> Futbot</title>
 
-        <img class="hero" src="content/bot.jpg">
+      <!--Import Google Icon Font-->
 
-        <div class="row">
-            <h4>Somos la primera agrupación venezolana trabajando para ganar la Robocup.</h4>
-            <div class="column third">
-                <a href="http://mecatronica.labc.usb.ve/" target="_blank"><img src="content/mecatronica.png" alt="WIRED"></a>
-                <p>Hacemos vida en Mecatrónica USB, donde trabajamos conjuntamente con profesores en el desarrollo de diversos proyectos de robótica.</p>
-            </div>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-            <div class="column third">  <!-- Clean this mess -->
-                <div class="video">
-                    <div style="position:relative;" onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'">
-                        <img style="cursor: pointer;" src="/futbot2/content/a.gif" alt="" />
-                        <img style="cursor: pointer; position: absolute; top: 0px;" src="/futbot2/content/play.png" alt="" />
-                    </div>
-                    <div id="thevideo" style="display: none;">
-                        <object width="253px" height="143px" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0">
-                            <param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="https://www.youtube.com/embed/xhhhdUtYPkU?rel=0&amp;showinfo=0;theme=light;autoplay=1" />
-                            <param name="allowfullscreen" value="true" />
-                            <embed width="253px" height="143px" type="application/x-shockwave-flash" src="http://www.youtube.com/v/xhhhdUtYPkU?version=3&amp;hl=en_US&amp;showinfo=0;theme=light;;autoplay=1" frameborder="0" allowFullScreen="true" allowscriptaccess="always" allowfullscreen="true" />
-                        </object>
-                    </div>
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/main-css/materialize.css"  media="screen,projection"/>
+
+      <!--utilizando skeleton.css-->
+      <!-- <link type="text/css" rel="stylesheet" href="css/main-css/skeleton.css"  media="screen,projection"/> -->
+
+      <!-- My own css-->
+      <link type="text/css" rel="stylesheet" href="css/main-css/main-page2.css"  media="screen,projection"/>
+
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+
+
+    <body>
+
+
+        <header>
+
+
+        <div class="navbar-fixed">
+            <nav role="navigation">
+                <div class="nav-wrapper">
+
+                  <a href="#Home" class="brand-logo"> >> FUTBOT</a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down ">
+                    <li><a href="#Nosotros">Nosotros</a></li>
+                    <li><a href="#Robots">Robots</a></li>
+                    <li><a href="#Equipo">Equipo </a></li>
+                    <li><a href="#Contacto">Contacto </a></li>
+                    <li><a href="#">English</a></li>
+                  </ul>
+
+                  <ul class="side-nav black lighten-5" id="mobile-demo">
+
+                      <li><a href="#Nosotros">Nosotros</a></li>
+                      <li><a href="#Robots">Robots</a></li>
+                      <li><a href="#Equipo">Equipos</a></li>
+                      <li><a href="#Contacto">Constacto</a></li>
+                      <li><a href="#">English</a></li>
+                 </ul>
+
                 </div>
+              </nav>
+        </div>
+
+
+        </header>
+
+
+
+    <main>
+
+
+    <!-- Slideshow  -->
+
+      <div class="slider ">
+          <ul class="slides">
+            <li>
+              <img src="img/ss1.png">
+              <div class="caption right-align">
+                <h3 class="slideshow-colors1 general-font">Creamos Futuro</h3>
+                <div class="row">
+                  <h6 class="col s6"></h6>
+                  <h6 class=" col s6 slideshow-colors1 slideshow-fonts-size general-font ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eaque maxime pariatur, repudiandae, numquam praesentium distinctio explicabo, rem aliquid quasi excepturi temporibus ab cum similique atque ipsum hic. Ex, quo. </h6>
+                </div>
+              </div>
+            </li>
+            <li>
+             <img src="img/ss2.png">
+              <div class="caption left-align">
+                <h3 class="slideshow-colors1 general-font">Vision de futuro </h3>
+                <div class="row">
+                  <h6 class=" col s6 slideshow-colors1 slideshow-fonts-size general-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eaque maxime pariatur, repudiandae, numquam praesentium distinctio explicabo, rem aliquid quasi excepturi temporibus ab cum similique atque ipsum hic. Ex, quo. </h6>
+                </div>
+              </div>
+            </li>
+            <li>
+             <img src="img/ss3.png">
+              <div class="caption left-align">
+                <h3 class="general-font slideshow-colors2">Ideas de Punta</h3>
+                <div class="row">
+                  <h6 class=" col s6 slideshow-colors2 slideshow-fonts-size" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eaque maxime pariatur, repudiandae, numquam praesentium distinctio explicabo, rem aliquid quasi excepturi temporibus ab cum similique atque ipsum hic. Ex, quo. </h6>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+
+      <!-- Seccion nostros -->
+      <div class="section" id="nosotros_s">
+
+        <a id="Nosotros" class="smooth"></a>
+
+        <div class="row ">
+          <h2 class="header general-font" style="text-align:center ">¿ Quiénes somos ?</h2>
+          <h4 class="header general-font slideshow-colors2" style="text-align:center ">Prestigio , Innovacion, Precision</h4>
+
+          <div class="col s12">
+          <p class=" center nosotros-font-color general-font"> Somos una agrupacion que trata de  hacer robots en Venezuela con todo tipo de materiales reciclables para participar en en competencias a nivel nacional e internacional. Utilizamos los conocimientos adquiridos para poder realizar los robots con los algoritmos mas modernos en la insdustria </p>
+          </div>
+
+
+        </div>
+
+
+        <div class="row" id="icons">
+
+            <div class="col s4  col-height" id="diseno">
+
+              <div class=" center iconos " >
+
+                <!--<i class=" large material-icons"> flash_on</i> -->
+                <img src="img/Design-100.png">
+                <p> Diseñamos</p>
+
+                <div style="display:none">
+                    <h5 class="popup-head general-font"> <p>Disenamos con pasion</p> </h5>
+                    <p class="popup-foot general-font">Por que disenamos con la confianza de que nuestro robots lograran un alto desempeno</p>
+                </div>
+              </div>
+
             </div>
 
-            <div class="column third">
-                <a href="http://www.usb.ve/" target="_blank"><img src="content/usb.png" alt="WIRED"></a>
-                <p>Como estudiantes de la Universidad Simón Bolívar participamos conjuntamente en diversas áreas de manera interdiciplinaria.</p>
+            <div class="col s4  col-height" id="engranes">
+
+
+               <div class=" center iconos ">
+
+                 <!--<i class=" large material-icons"> flash_on</i> -->
+                 <img src="img/Gears-100.png">
+                 <p> Construimos</p>
+
+                 <div style="display:none">
+                      <h5 class="popup-head general-font"> <p>Contruimos con ...</p> </h5>
+                      <p class="popup-foot general-font ">Por que disenamos con la confianza de que nuestro robots lograran un alto desempeno</p>
+                  </div>
+               </div>
+
+             </div>
+
+             <div class="col s4  col-height" id="trofeo" >
+
+
+               <div class="center iconos">
+
+                 <!--<i class=" large material-icons"> flash_on</i> -->
+                 <img src="img/Trophy-100.png">
+                 <p> Competimos</p>
+
+                 <div style="display:none">
+                   <h5 class="popup-head general-font"> <p>Competimos...</p> </h5>
+                   <p class="popup-foot general-font">Por que disenamos con la confianza de que nuestro robots lograran un alto desempeno</p>
+                </div>
+
+               </div>
+
+
+
+             </div>
+
+
+
+        </div>
+
+
+      </div>
+
+
+
+    <!-- PROTOTIPOS -->
+
+    <div id="robots_s" >
+
+    <div class="container" >
+
+        <a id="Robots" class="smooth"></a>
+
+        <div class="row " id="robot1">
+
+              <div class="col s12  left extra-logo">
+              <img src="img/robot.png" class=" curved left"  border="0" alt="Null" id="img-robot1">
+
+              <h2 class="r-titulo ">  ROBOT WALL-E. </h2>
+              <h3 class="r-subtitulo "> EL MEJOR ROBOT.</h3>
+              <p class=" alinea-izquierda general-font robots-color-font">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, incidunt dolor? Animi, delectus velit esse! Iure id natus, rem opti general-o consequatur aliquid eos voluptate suscipit odio error voluptates, commodi accusamus?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat repudiandae praesentium eaque at odio, ipsa unde, nostrum incidunt quas veniam iusto vitae? Placeat, at sit aliquam nesciunt ut modi ad.
+              </p>
+
+              </div>
+
+        </div>
+
+    </div>
+
+    <div class="container" >
+
+        <a id="Robots" class="smooth"></a>
+
+        <div class="row " id="robot2">
+
+              <div class="col s12  right extra-logo">
+              <img src="img/robot.png" class=" curved right"  border="0" alt="Null" id="img-robot2">
+
+              <h2 class="r-titulo alinea-derecha ">  ROBOT WALL-E. </h2>
+              <h3 class="r-subtitulo alinea-derecha"> EL MEJOR ROBOT.</h3>
+              <p class=" alinea-derecha general-font robots-color-font">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, incidunt dolor? Animi, delectus velit esse! Iure id natus, rem opti general-o consequatur aliquid eos voluptate suscipit odio error voluptates, commodi accusamus?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat repudiandae praesentium eaque at odio, ipsa unde, nostrum incidunt quas veniam iusto vitae? Placeat, at sit aliquam nesciunt ut modi ad.
+              </p>
+
+              </div>
+
+        </div>
+
+    </div>
+
+    <div class="container" >
+
+        <a id="Robots" class="smooth"></a>
+
+        <div class="row " id="robot3">
+
+              <div class="col s12  left extra-logo">
+              <img src="img/robot.png" class=" curved left"  border="0" alt="Null" id="img-robot3">
+
+              <h2 class="r-titulo ">  ROBOT WALL-E. </h2>
+              <h3 class="r-subtitulo "> EL MEJOR ROBOT.</h3>
+              <p class=" alinea-izquierda general-font robots-color-font">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, incidunt dolor? Animi, delectus velit esse! Iure id natus, rem opti general-o consequatur aliquid eos voluptate suscipit odio error voluptates, commodi accusamus?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat repudiandae praesentium eaque at odio, ipsa unde, nostrum incidunt quas veniam iusto vitae? Placeat, at sit aliquam nesciunt ut modi ad.
+              </p>
+
+              </div>
+
+        </div>
+
+    </div>
+
+
+  </div>
+
+
+  </div>
+
+
+
+
+
+
+     <div id="legado-s" class="background-legado"> </div>
+
+
+
+
+  <!--- The TEAM  -->
+  <div id="equipo-s">
+
+  <a id="Equipo" class="smooth "></a>
+
+  <h2 class="header general-font" style="text-align:center ">Nuestro Equipo.</h2>
+  <h4 class="header general-font slideshow-colors2" style="text-align:center "> Electronia, Computacion, Mecanica</h4>
+
+  <div class="container general-font ">
+
+
+    <div class="row">
+
+      <div class="center">
+
+        <div class="col s3 ">
+          <img src="img/User.png" class="user_min">
+          <p> Presidente </p>
+          <p class="nombre"> Nombre 1</p>
+       </div>
+
+       <div class="col s3 ">
+          <img src="img/User.png" class="user_min">
+          <p> Vicepresidente</p>
+          <p class="nombre"> Nombre 2</p>
+       </div>
+
+       <div class="col s3 ">
+          <img src="img/User.png" class="user_min">
+          <p> Finanzas</p>
+          <p class="nombre"> Nombre 4</p>
+       </div>
+
+       <div class="col s3 ">
+          <img src="img/User.png" class="user_min">
+          <p> Relaciones Publicas</p>
+          <p class="nombre"> Nombre 9</p>
+       </div>
+
+      </div>
+
+    </div>
+
+    <div class="row ">
+
+      <div class="center">
+
+        <div class="col s3">
+          <img src="img/User.png" class="user_min">
+          <p>  Accionamiento </p>
+          <p style="font-size:14px"> Nombre 1</p>
+       </div>
+
+       <div class="col s3">
+          <img src="img/User.png" class="user_min">
+          <p> I.A.</p>
+          <p class="nombre"> Nombre 6</p>
+       </div>
+
+       <div class="col s3">
+          <img src="img/User.png" class="user_min">
+          <p> Control </p>
+          <p cclass="nombre"> Nombre 7</p>
+       </div>
+
+       <div class="col s3">
+          <img src="img/User.png" class="user_min">
+          <p> Otra division</p>
+          <p class="nombre"> Nombre 8</p>
+       </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+  </div>
+
+  <!-- Esto es para probar si el parallax funciona -->
+  <!-- <div class="parallax-container">
+      <div class="parallax"><img src="img/ss1.png"> Aqui va la foto </div>
+  </div> -->
+
+
+  <div class="parallax-container">
+        <div class="parallax"><img src="img/cromovegetal.jpg"> Aqui va la foto </div>
+    </div>
+
+
+  </main>
+
+    <!--  FOOTER DE LA PAGINA  -->
+    <footer class="page-footer white " style="margin-top: 0px; padding-top:0px;">
+        <a id="Contacto" class="smooth"></a>
+
+
+          <div class="container" id="mapa-container">
+
+            <div id="map-canvas"> </div>
+
+          </div>
+
+          <div id="float-container">
+
+
+              <h4 class="bloque-fonts-title">  >>FUTBOT </h4>
+              <p class="bloque-fonts">Valle de Sartenjas </p>
+              <p class="bloque-fonts">Caracas Venezuela 1080 </p>
+              <p class="bloque-fonts">Universidad Simon Bolivar  </p>
+              <p class="bloque-fonts"> Telefono xxxxxx  </p>
+              <p class="bloque-fonts"> Hora xxxxxx  </p>
+              <div class="twitter-container">
+
+
+                <a class="twitter-timeline" href="https://twitter.com/andresbr223" data-widget-id="723126106530799616"  width="90%"
+                height="40" data-chrome="nofooter noborders noheader" >Tweets por el @andresbr223.</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+              </div>
+
+
+
+          </div>
+
+
+          <!-- Parte del footer copyright -->
+          <div class="autores general-font center">
+            <div class="container footer-c">
+              <div class="row footer-size">
+                  <div class="col s12 center-align valign-wrapper">
+                    <p class="logo-creators valign  ">Powered by </p>
+                    <img class="log-f " src="img/ominia_white.png">
+                    <p class="valign">©Futbot Universidad Simon Bolivar 2016</p>
+                 </div>
+              </div>
             </div>
-        </div>
-    </div>
+          </div>
 
-    <div style="height: 835px;" id="carousel" class="noise">
-        <div class="row">
-            <h1>Sobre el proyecto</h1>
-        </div>
-    </div>
-
-    <div style="height: 835px;" id="carousel2">
-        <div class="row">
-            <h1>Danilo, por qué Danilo</h1>
-        </div>
-    </div>
-</div>
-    <footer>
-	    FUTBOT USB<BR><BR>Nam ullamcorper pulvinar risus, at scelerisque ex elementum eu. Nunc sit amet nunc quis mi varius euismod ut vitae risus. Phasellus maximus ultrices lobortis.<BR>In facilisis ullamcorper velit, non vulputate mauris euismod id. Maecenas eget turpis varius, rutrum ex a, malesuada odio.
     </footer>
-    <!--[if lt IE 9]>
-        <div id="legacy-warning">
-            <h1>Esta página web requiere html5 y su explorador web puede no ser compatible con la misma.</h1>
 
-            <p>This version of Internet Explorer is out of date and may contain bugs or security vulnerabilities. Please <a href="http://browsehappy.com/">upgrade</a> to IE 11 or an alternative web browser.</p>
 
-            <div id="legacy-warning-buttons">
-                <a  href="#" onClick="document.getElementById('legacy-warning').style.display = 'none';">Dismiss</a>
 
-                <a  class="suggested-action" href="http://browsehappy.com/" target="_blank">Learn More</a>
-            </div>
-        </div>
-    <![endif]-->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+     <script type="text/javascript" src="js/animation.js"></script>
+    <script type="text/javascript">
 
-</body>
+    $( document ).ready(function() {
+
+       $(".button-collapse").sideNav();
+
+       $('.parallax').parallax();
+
+       $('.slider').slider({full_width: true, indicators:false, interval:4000});
+
+    });
+
+    $('a[href^="#"]').on('click', function(event) {
+
+    var target = $( $(this).attr('href') );
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top -55
+        }, 1000);
+    }
+
+    });
+
+
+    function initMap() {
+
+
+        // Arreglo de estilos
+        var styles = [
+            {
+                "featureType": "all",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": -100
+                    },
+                    {
+                        "gamma": 0.5
+                    }
+                ]
+            }
+        ];
+        // Create a new StyledMapType object, passing it the array of styles,
+        // as well as the name to be displayed on the map type control.
+        //  Lo que dice el comentario del api de google
+        var styledMap = new google.maps.StyledMapType(styles,
+            {name: "FUTBOT  USB"});
+
+        var mapOptions = {
+            zoom: 11,
+            center: { lat: 44.50, lng:-78.546 },
+            mapTypeControlOptions: {
+              mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+            }
+        };
+
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+
+        //Associate the styled map with the MapTypeId and set it to display.
+        map.mapTypes.set('map_style', styledMap);
+        map.setMapTypeId('map_style');
+
+
+     }
+
+
+
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+
+
+
+    </body>
+
+
+
+
 </html>
